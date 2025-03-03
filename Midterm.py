@@ -22,7 +22,7 @@ def hollow_right_triangle(n):
 def inverted_pyramid(n):
     if n >= 3:
         result = []
-        spaces =(n - 1)
+        spaces = (n - 1)
         end = [" " * spaces + "*"]
         ispace = -1
         for i in range (n + (n-1), 1, -2):

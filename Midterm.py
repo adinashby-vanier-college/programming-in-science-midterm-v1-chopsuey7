@@ -25,7 +25,7 @@ def inverted_pyramid(n):
         spaces = (n - 1)
         end = [" " * spaces + "*"]
         ispace = -1
-        for i in range (n + (n-1), 1, -2):
+        for i in range (n + (n - 1), 1, -2):
             ispace += 1
             result.append(" " * ispace + "*" * i)
         return "\n".join(result + end).rstrip()
